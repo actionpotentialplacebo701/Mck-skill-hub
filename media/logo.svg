@@ -1,18 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
   <defs>
     <style>
-      .title { font-family: Georgia, 'Times New Roman', serif; font-size: 42px; font-weight: bold; fill: #051C2C; }
-      .subtitle { font-family: Arial, sans-serif; font-size: 14px; fill: #666666; letter-spacing: 0.5px; }
-      .accent { fill: #C4A35A; }
+      .title { font-family: Georgia, 'Times New Roman', serif; font-size: 48px; font-weight: bold; fill: #051C2C; }
+      .hub { font-family: Georgia, 'Times New Roman', serif; font-size: 48px; font-weight: bold; fill: #C4A35A; }
+      .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 13px; fill: #888888; letter-spacing: 2.5px; text-transform: uppercase; }
     </style>
   </defs>
 
-  <!-- Title -->
-  <text x="0" y="38" class="title">Mck Skill Hub</text>
+  <!-- Geometric icon: 2x2 matrix squares -->
+  <g transform="translate(0, 18)">
+    <!-- Top-left -->
+    <rect x="0" y="0" width="32" height="32" rx="4" fill="#051C2C"/>
+    <!-- Top-right -->
+    <rect x="36" y="0" width="32" height="32" rx="4" fill="#051C2C" opacity="0.7"/>
+    <!-- Bottom-left -->
+    <rect x="0" y="36" width="32" height="32" rx="4" fill="#051C2C" opacity="0.4"/>
+    <!-- Bottom-right -->
+    <rect x="36" y="36" width="32" height="32" rx="4" fill="#C4A35A"/>
+  </g>
 
-  <!-- Underline accent -->
-  <rect x="0" y="48" width="310" height="3" rx="1.5" class="accent"/>
+  <!-- Title text -->
+  <text x="88" y="58" class="title">Mck Skill</text>
+  <text x="378" y="58" class="hub"> Hub</text>
+
+  <!-- Accent line -->
+  <rect x="88" y="68" width="120" height="2.5" rx="1.25" fill="#C4A35A"/>
 
   <!-- Subtitle -->
-  <text x="0" y="72" class="subtitle">Professional AI skills for knowledge workers</text>
+  <text x="88" y="95" class="subtitle">Professional AI skills for knowledge workers</text>
 </svg>
