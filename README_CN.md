@@ -60,7 +60,11 @@
 <br>
 
 <div align="center">
-<img src="media/matrix.svg" alt="Meaning-Achievement Matrix" width="640">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="media/matrix-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="media/matrix.svg">
+  <img src="media/matrix.svg" alt="Meaning-Achievement Matrix" width="640">
+</picture>
 </div>
 
 <br>

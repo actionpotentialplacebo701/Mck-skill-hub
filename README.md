@@ -2,7 +2,11 @@
 
 <br>
 
-<img src="media/logo.svg" alt="Mck Skill Hub" width="540">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="media/logo-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="media/logo.svg">
+  <img src="media/logo.svg" alt="Mck Skill Hub" width="540">
+</picture>
 
 <br>
 <br>
