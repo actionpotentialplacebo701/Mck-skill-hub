@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mck-skills — Skills for a better Way of Living & Working</title>
+    <title>Mck Skill Hub — McKinsey-grade AI skills for knowledge workers</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -25,7 +25,6 @@
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
-
         html { scroll-behavior: smooth; }
 
         body {
@@ -174,14 +173,14 @@
             animation: scrollPulse 2s ease infinite;
         }
 
-        /* ============ MATRIX SECTION ============ */
-        .matrix-section {
-            padding: 8rem 2rem;
+        /* ============ WHO IS THIS FOR ============ */
+        .audience-section {
+            padding: 6rem 2rem;
             background: var(--warm-white);
             position: relative;
         }
 
-        .matrix-section::before {
+        .audience-section::before {
             content: '';
             position: absolute;
             top: 0; left: 50%;
@@ -189,6 +188,53 @@
             width: 1px;
             height: 80px;
             background: linear-gradient(to bottom, var(--navy), transparent);
+        }
+
+        .audience-grid {
+            max-width: 900px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .audience-card {
+            padding: 2rem;
+            border: 1px solid var(--mist);
+            background: white;
+            transition: all 0.3s ease;
+        }
+
+        .audience-card:hover {
+            border-color: var(--gold);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(5, 28, 44, 0.06);
+        }
+
+        .audience-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .audience-title {
+            font-family: var(--font-display);
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 0.5rem;
+        }
+
+        .audience-desc {
+            font-size: 0.88rem;
+            color: var(--slate);
+            line-height: 1.7;
+        }
+
+        /* ============ MATRIX SECTION ============ */
+        .matrix-section {
+            padding: 8rem 2rem;
+            background: var(--cream);
+            position: relative;
         }
 
         .section-header {
@@ -256,14 +302,8 @@
             transform: translateX(-50%);
         }
 
-        .axis-high {
-            font-weight: 700;
-            color: var(--navy);
-        }
-
-        .axis-low {
-            opacity: 0.5;
-        }
+        .axis-high { font-weight: 700; color: var(--navy); }
+        .axis-low { opacity: 0.5; }
 
         .matrix-grid {
             display: grid;
@@ -277,7 +317,6 @@
         .quadrant-card {
             background: var(--warm-white);
             padding: 2.5rem;
-            cursor: pointer;
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             position: relative;
             overflow: hidden;
@@ -292,9 +331,7 @@
             transition: height 0.4s ease;
         }
 
-        .quadrant-card:hover::before {
-            height: 100%;
-        }
+        .quadrant-card:hover::before { height: 100%; }
 
         .quadrant-card:hover {
             background: white;
@@ -308,11 +345,7 @@
         .q-the-drift::before { background: var(--the-drift); }
         .q-quiet-contentment::before { background: var(--quiet-contentment); }
 
-        .quadrant-icon {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-
+        .quadrant-icon { font-size: 2rem; margin-bottom: 1rem; }
         .quadrant-name {
             font-family: var(--font-display);
             font-size: 1.4rem;
@@ -355,48 +388,21 @@
         /* ============ SKILLS GALLERY ============ */
         .gallery-section {
             padding: 8rem 2rem;
-            background: var(--cream);
-        }
-
-        .gallery-tabs {
-            display: flex;
-            justify-content: center;
-            gap: 0.5rem;
-            margin-bottom: 4rem;
-            flex-wrap: wrap;
-        }
-
-        .tab-btn {
-            font-family: var(--font-mono);
-            font-size: 0.72rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            padding: 0.8rem 1.5rem;
-            border: 1px solid var(--mist);
-            background: transparent;
-            color: var(--slate);
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .tab-btn:hover, .tab-btn.active {
-            background: var(--navy);
-            color: var(--cream);
-            border-color: var(--navy);
+            background: var(--warm-white);
         }
 
         .skills-grid {
-            max-width: 1100px;
+            max-width: 900px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 2rem;
         }
 
         .skill-card {
             background: white;
             border: 1px solid var(--mist);
-            padding: 2rem;
+            padding: 2.5rem;
             transition: all 0.3s ease;
             position: relative;
         }
@@ -416,7 +422,7 @@
 
         .skill-name {
             font-family: var(--font-mono);
-            font-size: 0.95rem;
+            font-size: 1rem;
             font-weight: 500;
             color: var(--navy);
         }
@@ -428,43 +434,36 @@
             text-transform: uppercase;
             padding: 0.3rem 0.6rem;
             border: 1px solid;
-        }
-
-        .badge-production {
             color: var(--purposeful-impact);
             border-color: var(--purposeful-impact);
         }
 
-        .badge-planned {
-            color: var(--slate);
-            border-color: var(--mist);
-        }
-
-        .badge-beta {
-            color: var(--hollow-victory);
-            border-color: var(--hollow-victory);
-        }
-
         .skill-desc {
-            font-size: 0.88rem;
+            font-size: 0.92rem;
             color: var(--slate);
             line-height: 1.7;
             margin-bottom: 1.5rem;
+        }
+
+        .skill-link {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+            color: var(--gold);
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        .skill-link:hover {
+            border-bottom-color: var(--gold);
         }
 
         .skill-meta {
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
-
-        .skill-quadrant-tag {
-            font-family: var(--font-mono);
-            font-size: 0.6rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            padding: 0.25rem 0.5rem;
-            background: var(--cream);
+            margin-top: 1rem;
         }
 
         .skill-tags {
@@ -525,44 +524,10 @@
             color: rgba(248, 245, 240, 0.4);
         }
 
-        .three-moves {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 3rem;
-            max-width: 1000px;
-            margin: 5rem auto 0;
-            text-align: left;
-        }
-
-        .move-card {
-            border-top: 1px solid rgba(248, 245, 240, 0.15);
-            padding-top: 2rem;
-        }
-
-        .move-arrow {
-            font-family: var(--font-display);
-            font-size: 1.5rem;
-            color: var(--gold);
-            margin-bottom: 0.8rem;
-        }
-
-        .move-title {
-            font-family: var(--font-display);
-            font-size: 1.15rem;
-            font-weight: 700;
-            margin-bottom: 0.8rem;
-        }
-
-        .move-desc {
-            font-size: 0.88rem;
-            color: rgba(248, 245, 240, 0.6);
-            line-height: 1.7;
-        }
-
         /* ============ QUICKSTART SECTION ============ */
         .quickstart-section {
             padding: 8rem 2rem;
-            background: var(--warm-white);
+            background: var(--cream);
         }
 
         .quickstart-content {
@@ -592,13 +557,8 @@
             color: rgba(248, 245, 240, 0.25);
         }
 
-        .code-comment {
-            color: rgba(248, 245, 240, 0.35);
-        }
-
-        .code-cmd {
-            color: var(--gold);
-        }
+        .code-comment { color: rgba(248, 245, 240, 0.35); }
+        .code-cmd { color: var(--gold); }
 
         /* ============ FOOTER ============ */
         .footer {
@@ -625,9 +585,7 @@
             transition: color 0.3s;
         }
 
-        .footer-links a:hover {
-            color: var(--gold);
-        }
+        .footer-links a:hover { color: var(--gold); }
 
         .footer p {
             font-size: 0.8rem;
@@ -659,32 +617,13 @@
 
         /* ============ RESPONSIVE ============ */
         @media (max-width: 768px) {
-            .matrix-grid {
-                grid-template-columns: 1fr;
-            }
-            .three-moves {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-            .hero-cta {
-                flex-direction: column;
-                align-items: center;
-            }
-            .matrix-axes {
-                padding: 1rem 0 0 0;
-            }
-            .axis-y-label {
-                display: none;
-            }
-            .quadrant-card {
-                padding: 1.8rem;
-            }
-            .gallery-tabs {
-                gap: 0.3rem;
-            }
-            .skills-grid {
-                grid-template-columns: 1fr;
-            }
+            .matrix-grid { grid-template-columns: 1fr; }
+            .audience-grid { grid-template-columns: 1fr; }
+            .hero-cta { flex-direction: column; align-items: center; }
+            .matrix-axes { padding: 1rem 0 0 0; }
+            .axis-y-label { display: none; }
+            .quadrant-card { padding: 1.8rem; }
+            .skills-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -693,19 +632,51 @@
     <!-- ============ HERO ============ -->
     <section class="hero">
         <div class="hero-grain"></div>
-        <div class="hero-badge">A curated skill gallery for consultants & builders</div>
-        <h1>Mck-<em>skills</em></h1>
+        <div class="hero-badge">McKinsey-grade AI skills for knowledge workers</div>
+        <h1>Mck <em>Skill Hub</em></h1>
         <p class="hero-subtitle">
-            Skills for a better Way of Living & Working.<br/>
-            Built around the Meaning-Achievement Matrix.
+            You don't need to be a consultant to think like one.<br/>
+            If your job involves slides, strategy, or structured thinking — you're home.
         </p>
         <div class="hero-cta">
             <a href="#gallery" class="btn btn-primary">Browse Skills</a>
-            <a href="https://github.com" class="btn btn-ghost" target="_blank">View on GitHub</a>
+            <a href="https://github.com/likaku/mck-skill-hub" class="btn btn-ghost" target="_blank">View on GitHub</a>
         </div>
         <div class="scroll-indicator">
             <span>Scroll</span>
             <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ============ WHO IS THIS FOR ============ -->
+    <section class="audience-section">
+        <div class="section-header fade-in">
+            <div class="section-label">Who is this for</div>
+            <h2>For Every Knowledge Worker Who Makes Decks at 2am</h2>
+            <p>Not just consultants. Anyone who structures arguments, designs slides, and presents ideas for a living.</p>
+        </div>
+
+        <div class="audience-grid fade-in">
+            <div class="audience-card">
+                <div class="audience-icon">📊</div>
+                <div class="audience-title">Deck Makers</div>
+                <div class="audience-desc">Whether for clients, leadership, investors, or internal reviews — if you make slides, these skills save you hours of formatting.</div>
+            </div>
+            <div class="audience-card">
+                <div class="audience-icon">📝</div>
+                <div class="audience-title">Argument Structurers</div>
+                <div class="audience-desc">Proposals, strategy docs, business cases, memos — turn unstructured ideas into compelling narratives with proven frameworks.</div>
+            </div>
+            <div class="audience-card">
+                <div class="audience-icon">🎤</div>
+                <div class="audience-title">Presenters</div>
+                <div class="audience-desc">Team meetings, all-hands, pitch sessions, board updates — structure your talking points like a partner-level consultant.</div>
+            </div>
+            <div class="audience-card">
+                <div class="audience-icon">⏰</div>
+                <div class="audience-title">Late-Night Formatters</div>
+                <div class="audience-desc">If you've ever spent 3 hours on fonts and alignment instead of thinking — automate the 80% that's mechanical.</div>
+            </div>
         </div>
     </section>
 
@@ -727,59 +698,56 @@
                 </div>
 
                 <div class="matrix-grid">
-                    <div class="quadrant-card q-hollow-victory" onclick="filterSkills('hollow-victory')">
+                    <div class="quadrant-card q-hollow-victory">
                         <div class="quadrant-icon">🐹</div>
                         <div class="quadrant-name">The Hollow Victory</div>
                         <div class="quadrant-tagline">"Run faster, feel less."</div>
                         <div class="quadrant-desc">
-                            High achievement, low meaning. You're crushing it — but Sunday nights fill you with dread.
-                            These skills automate the mechanical, freeing you from the hamster wheel.
+                            High output, low fulfillment. You're crushing deliverables — but 80% of your time goes to work a machine could do.
+                            These skills automate the mechanical, freeing your brain for actual thinking.
                         </div>
                         <div class="quadrant-stats">
-                            <div><span class="stat-num">4</span> skills</div>
+                            <div><span class="stat-num">2</span> skills</div>
                             <div><span class="stat-num">✅</span> production</div>
                         </div>
                     </div>
 
-                    <div class="quadrant-card q-purposeful-impact" onclick="filterSkills('purposeful-impact')">
+                    <div class="quadrant-card q-purposeful-impact">
                         <div class="quadrant-icon">🚀</div>
                         <div class="quadrant-name">Purposeful Impact</div>
                         <div class="quadrant-tagline">"Build what matters."</div>
                         <div class="quadrant-desc">
-                            The north star. Channel your consulting superpowers into work that matters —
+                            The north star. Channel your structured-thinking superpowers into work that matters —
                             side projects, ventures, communities that align purpose with achievement.
                         </div>
                         <div class="quadrant-stats">
-                            <div><span class="stat-num">5</span> planned</div>
                             <div><span class="stat-num">🔜</span> coming soon</div>
                         </div>
                     </div>
 
-                    <div class="quadrant-card q-the-drift" onclick="filterSkills('the-drift')">
+                    <div class="quadrant-card q-the-drift">
                         <div class="quadrant-icon">⚓</div>
                         <div class="quadrant-name">The Drift</div>
                         <div class="quadrant-tagline">"Lost at sea."</div>
                         <div class="quadrant-desc">
-                            Low everything. Doom-scrolling between meetings, procrastinating because nothing
-                            feels worth doing. These skills provide structure when you've lost your compass.
+                            Doom-scrolling between meetings. Procrastinating because nothing feels worth doing.
+                            Skills that provide structure when you've lost your compass.
                         </div>
                         <div class="quadrant-stats">
-                            <div><span class="stat-num">4</span> planned</div>
-                            <div><span class="stat-num">⚓</span> rescue kit</div>
+                            <div><span class="stat-num">🔜</span> coming soon</div>
                         </div>
                     </div>
 
-                    <div class="quadrant-card q-quiet-contentment" onclick="filterSkills('quiet-contentment')">
+                    <div class="quadrant-card q-quiet-contentment">
                         <div class="quadrant-icon">🕯️</div>
                         <div class="quadrant-name">Quiet Contentment</div>
                         <div class="quadrant-tagline">"Simple riches."</div>
                         <div class="quadrant-desc">
-                            Not everything needs to be a KPI. These skills support the life around the work —
+                            Not everything needs to be a KPI. Skills that support the life around the work —
                             reading, reflection, relationships, and rest.
                         </div>
                         <div class="quadrant-stats">
-                            <div><span class="stat-num">4</span> planned</div>
-                            <div><span class="stat-num">🕯️</span> slow down</div>
+                            <div><span class="stat-num">🔜</span> coming soon</div>
                         </div>
                     </div>
                 </div>
@@ -791,259 +759,41 @@
     <section class="gallery-section" id="gallery">
         <div class="section-header fade-in">
             <div class="section-label">The Gallery</div>
-            <h2>All Skills</h2>
-            <p>Filter by quadrant. Explore by purpose. Install in seconds.</p>
+            <h2>Available Skills</h2>
+            <p>Battle-tested. Production-ready. Install in seconds.</p>
         </div>
 
-        <div class="gallery-tabs fade-in">
-            <button class="tab-btn active" onclick="filterSkills('all')">All Skills</button>
-            <button class="tab-btn" onclick="filterSkills('hollow-victory')">🐹 Hollow Victory</button>
-            <button class="tab-btn" onclick="filterSkills('purposeful-impact')">🚀 Purposeful Impact</button>
-            <button class="tab-btn" onclick="filterSkills('the-drift')">⚓ The Drift</button>
-            <button class="tab-btn" onclick="filterSkills('quiet-contentment')">🕯️ Quiet Contentment</button>
-        </div>
-
-        <div class="skills-grid fade-in" id="skillsGrid">
-            <!-- Hollow Victory Skills -->
-            <div class="skill-card" data-quadrant="hollow-victory">
+        <div class="skills-grid fade-in">
+            <div class="skill-card">
                 <div class="skill-header">
                     <div class="skill-name">mck-ppt-design</div>
-                    <div class="skill-badge badge-production">Production</div>
+                    <div class="skill-badge">Production</div>
                 </div>
-                <div class="skill-desc">McKinsey-grade PowerPoint presentations from structured content. Full design system with 16+ layout patterns, typography hierarchy, and color tokens.</div>
+                <div class="skill-desc">Consultant-grade PowerPoint presentations with a full design system. 16+ layout patterns, typography hierarchy, color tokens, and python-pptx automation. Your deck, done right — in minutes instead of hours.</div>
+                <a href="https://github.com/likaku/Mck-ppt-design-skill" class="skill-link" target="_blank">→ View on GitHub</a>
                 <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🐹 hollow victory</div>
                     <div class="skill-tags">
                         <span class="skill-tag">ppt</span>
                         <span class="skill-tag">design</span>
+                        <span class="skill-tag">python-pptx</span>
+                        <span class="skill-tag">automation</span>
                     </div>
                 </div>
             </div>
 
-            <div class="skill-card" data-quadrant="hollow-victory">
-                <div class="skill-header">
-                    <div class="skill-name">mck-chart-design</div>
-                    <div class="skill-badge badge-production">Production</div>
-                </div>
-                <div class="skill-desc">FT/Economist editorial chart prompts for Midjourney. Cold-palette, annotation-driven line charts with direct labeling and focal emphasis.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🐹 hollow victory</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">chart</span>
-                        <span class="skill-tag">midjourney</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skill-card" data-quadrant="hollow-victory">
+            <div class="skill-card">
                 <div class="skill-header">
                     <div class="skill-name">professional-speech</div>
-                    <div class="skill-badge badge-production">Production</div>
+                    <div class="skill-badge">Production</div>
                 </div>
-                <div class="skill-desc">Structure compelling presentations and team communications using Pyramid Principle, SCQA, and Minto frameworks.</div>
+                <div class="skill-desc">Structure compelling presentations and talking points using Pyramid Principle, SCQA, and Minto frameworks. From unstructured ideas to persuasive narratives — like having a McKinsey partner coach your comms.</div>
+                <a href="https://github.com/likaku/Mck-speech-design-skill" class="skill-link" target="_blank">→ View on GitHub</a>
                 <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🐹 hollow victory</div>
                     <div class="skill-tags">
                         <span class="skill-tag">speech</span>
                         <span class="skill-tag">storytelling</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skill-card" data-quadrant="hollow-victory">
-                <div class="skill-header">
-                    <div class="skill-name">workbuddy-ppt-engine</div>
-                    <div class="skill-badge badge-production">Production</div>
-                </div>
-                <div class="skill-desc">Python-pptx automation backbone with McKinsey design system. Production-tested code patterns and file corruption defense.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🐹 hollow victory</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">python</span>
-                        <span class="skill-tag">engine</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skill-card" data-quadrant="hollow-victory">
-                <div class="skill-header">
-                    <div class="skill-name">data-model-builder</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Financial model scaffolding and sensitivity analysis. Build consulting-grade models from assumptions to outputs in minutes.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🐹 hollow victory</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">finance</span>
-                        <span class="skill-tag">excel</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skill-card" data-quadrant="hollow-victory">
-                <div class="skill-header">
-                    <div class="skill-name">client-email-craft</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Professional client communication templates. Tone-matched, context-aware emails that sound like you — but faster.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🐹 hollow victory</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">email</span>
-                        <span class="skill-tag">client</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Purposeful Impact Skills -->
-            <div class="skill-card" data-quadrant="purposeful-impact">
-                <div class="skill-header">
-                    <div class="skill-name">venture-canvas</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Lean Canvas + market sizing for side ventures. Apply your strategy toolkit to your own ideas, not just clients'.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🚀 purposeful impact</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">strategy</span>
-                        <span class="skill-tag">startup</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skill-card" data-quadrant="purposeful-impact">
-                <div class="skill-header">
-                    <div class="skill-name">community-builder</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Design and grow communities with flywheel thinking. From zero to thriving ecosystem using consulting growth frameworks.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🚀 purposeful impact</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">community</span>
-                        <span class="skill-tag">growth</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skill-card" data-quadrant="purposeful-impact">
-                <div class="skill-header">
-                    <div class="skill-name">strategy-storyteller</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Turn complex strategy into compelling narratives. From issue trees to TED-talk-worthy stories that move people.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🚀 purposeful impact</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">narrative</span>
-                        <span class="skill-tag">strategy</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skill-card" data-quadrant="purposeful-impact">
-                <div class="skill-header">
-                    <div class="skill-name">open-source-launch</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Launch and grow an open-source project. README design, community setup, CI/CD, and growth strategy — the full playbook.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🚀 purposeful impact</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">open-source</span>
-                        <span class="skill-tag">github</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- The Drift Skills -->
-            <div class="skill-card" data-quadrant="the-drift">
-                <div class="skill-header">
-                    <div class="skill-name">weekly-compass</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Weekly planning ritual with energy and priority mapping. Not another to-do list — a compass for when you feel directionless.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">⚓ the drift</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">planning</span>
-                        <span class="skill-tag">ritual</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skill-card" data-quadrant="the-drift">
-                <div class="skill-header">
-                    <div class="skill-name">decision-journal</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Structured decision logging to build self-awareness. Track the quality of your decisions, not just outcomes.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">⚓ the drift</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">reflection</span>
-                        <span class="skill-tag">decisions</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skill-card" data-quadrant="the-drift">
-                <div class="skill-header">
-                    <div class="skill-name">focus-session</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Deep work session design with Pomodoro + intelligent context loading. Beat the procrastination loop with structured intensity.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">⚓ the drift</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">focus</span>
-                        <span class="skill-tag">deep-work</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Quiet Contentment Skills -->
-            <div class="skill-card" data-quadrant="quiet-contentment">
-                <div class="skill-header">
-                    <div class="skill-name">reading-digest</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Summarize and annotate books, articles, and podcasts. Build your personal knowledge library without the grind.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🕯️ quiet contentment</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">reading</span>
-                        <span class="skill-tag">knowledge</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skill-card" data-quadrant="quiet-contentment">
-                <div class="skill-header">
-                    <div class="skill-name">reflection-prompt</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Daily and weekly reflection using consulting frameworks — applied to life, not clients. Structured introspection for structured minds.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🕯️ quiet contentment</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">reflection</span>
-                        <span class="skill-tag">journaling</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skill-card" data-quadrant="quiet-contentment">
-                <div class="skill-header">
-                    <div class="skill-name">life-dashboard</div>
-                    <div class="skill-badge badge-planned">Planned</div>
-                </div>
-                <div class="skill-desc">Personal KPI tracker beyond work metrics. Health, relationships, learning, creativity — the metrics that actually matter.</div>
-                <div class="skill-meta">
-                    <div class="skill-quadrant-tag">🕯️ quiet contentment</div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">dashboard</span>
-                        <span class="skill-tag">wellness</span>
+                        <span class="skill-tag">pyramid-principle</span>
+                        <span class="skill-tag">SCQA</span>
                     </div>
                 </div>
             </div>
@@ -1055,33 +805,9 @@
         <div class="philosophy-content fade-in">
             <div class="section-label" style="color: var(--gold);">The Philosophy</div>
             <div class="philosophy-quote">
-                "Most skill galleries optimize for <em>doing more, faster</em>. We optimize for <em>doing what matters</em> — and automating the rest."
+                "The knowledge economy produces incredibly capable people who spend 80% of their time on work <em>a machine could do</em>. We built this hub to <em>flip that ratio</em>."
             </div>
-            <div class="philosophy-attribution">— The Mck-skills Manifesto</div>
-        </div>
-
-        <div class="three-moves fade-in">
-            <div class="move-card">
-                <div class="move-arrow">→</div>
-                <div class="move-title">Move 1: Add Meaning</div>
-                <div class="move-desc">
-                    Hollow Victory → Purposeful Impact. Automate the mechanical (decks, formatting, boilerplate) and invest the freed time into projects you genuinely care about.
-                </div>
-            </div>
-            <div class="move-card">
-                <div class="move-arrow">↘</div>
-                <div class="move-title">Move 2: Step Off</div>
-                <div class="move-desc">
-                    Hollow Victory → Quiet Contentment. Sometimes you don't need another promotion. You need a walk without your phone, a book, a conversation about something other than work.
-                </div>
-            </div>
-            <div class="move-card">
-                <div class="move-arrow">↗</div>
-                <div class="move-title">Move 3: Find Structure</div>
-                <div class="move-desc">
-                    The Drift → Anywhere. When you're lost, use the same frameworks you'd apply to a client problem — but point them inward. Structure is salvation.
-                </div>
-            </div>
+            <div class="philosophy-attribution">— The Mck Skill Hub Manifesto</div>
         </div>
     </section>
 
@@ -1095,13 +821,12 @@
 
         <div class="quickstart-content fade-in">
             <div class="code-block">
-                <span class="code-comment"># Install a specific skill</span><br/>
-                <span class="code-cmd">cp -r skills/hollow-victory/mck-ppt-design/ ~/.claude/skills/</span><br/><br/>
-                <span class="code-comment"># Or browse the full gallery</span><br/>
-                <span class="code-cmd">git clone https://github.com/[username]/Mck-skills.git</span><br/>
-                <span class="code-cmd">cd Mck-skills && ls skills/</span><br/><br/>
-                <span class="code-comment"># Each skill has a SKILL.md — the brain of the operation</span><br/>
-                <span class="code-cmd">cat skills/hollow-victory/mck-ppt-design/SKILL.md</span>
+                <span class="code-comment"># Clone a specific skill</span><br/>
+                <span class="code-cmd">git clone https://github.com/likaku/Mck-ppt-design-skill.git</span><br/><br/>
+                <span class="code-comment"># Copy the skill definition into your agent</span><br/>
+                <span class="code-cmd">cp Mck-ppt-design-skill/SKILL.md ~/.claude/skills/</span><br/><br/>
+                <span class="code-comment"># Or browse the full hub</span><br/>
+                <span class="code-cmd">git clone https://github.com/likaku/mck-skill-hub.git</span>
             </div>
         </div>
     </section>
@@ -1112,10 +837,9 @@
             <a href="#matrix">Framework</a>
             <a href="#gallery">Gallery</a>
             <a href="#philosophy">Philosophy</a>
-            <a href="https://github.com" target="_blank">GitHub</a>
-            <a href="CONTRIBUTING.md">Contribute</a>
+            <a href="https://github.com/likaku/mck-skill-hub" target="_blank">GitHub</a>
         </div>
-        <p>Made with ❤️ by consultants who believe there's more to life than billable hours.</p>
+        <p>Made with ❤️ by knowledge workers who believe your brain deserves better than font alignment.</p>
     </footer>
 
     <script>
@@ -1129,39 +853,6 @@
         }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 
         document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-
-        // Skill filtering
-        function filterSkills(quadrant) {
-            const cards = document.querySelectorAll('.skill-card');
-            const tabs = document.querySelectorAll('.tab-btn');
-
-            // Update active tab
-            tabs.forEach(tab => {
-                tab.classList.remove('active');
-                if (
-                    (quadrant === 'all' && tab.textContent.includes('All')) ||
-                    tab.textContent.toLowerCase().includes(quadrant.replace('-', ' ').split(' ')[0])
-                ) {
-                    tab.classList.add('active');
-                }
-            });
-
-            // Filter cards
-            cards.forEach(card => {
-                if (quadrant === 'all' || card.dataset.quadrant === quadrant) {
-                    card.style.display = '';
-                    card.style.opacity = '0';
-                    card.style.transform = 'translateY(10px)';
-                    requestAnimationFrame(() => {
-                        card.style.transition = 'all 0.4s ease';
-                        card.style.opacity = '1';
-                        card.style.transform = 'translateY(0)';
-                    });
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        }
 
         // Smooth scroll for hero CTA
         document.querySelector('.btn-primary').addEventListener('click', (e) => {

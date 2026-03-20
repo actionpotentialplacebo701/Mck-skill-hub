@@ -1,12 +1,12 @@
-# Contributing to Mck-skills
+# Contributing to Mck Skill Hub
 
-Thank you for wanting to contribute! Every skill in this gallery exists because someone turned a frustration into a solution.
+Thank you for wanting to contribute! Every skill in this hub exists because someone turned a frustration into a solution.
 
 ## Two Ways to Contribute
 
 ### 1. Submit a Skill Idea (No Code)
 
-Open an [Issue](../../issues/new) using the **Skill Idea** template. Describe:
+Open an [Issue](../../issues/new) and describe:
 - What problem it solves
 - Which quadrant it serves
 - Who benefits most
@@ -17,8 +17,8 @@ Open an [Issue](../../issues/new) using the **Skill Idea** template. Describe:
 
 ```bash
 # Fork and clone
-git clone https://github.com/YOUR-USERNAME/mck-skills.git
-cd mck-skills
+git clone https://github.com/YOUR-USERNAME/mck-skill-hub.git
+cd mck-skill-hub
 
 # Create from template
 cp -r template/skill-template/ skills/[quadrant]/[your-skill-name]/
@@ -69,7 +69,7 @@ tags: [tag1, tag2, tag3]
 
 | Question | Quadrant |
 |----------|----------|
-| Does this automate busywork so I can focus on higher-value thinking? | 🐹 **Hollow Victory** |
+| Does this automate busywork so I can focus on real thinking? | 🐹 **Hollow Victory** |
 | Does this help me build something meaningful with my skills? | 🚀 **Purposeful Impact** |
 | Does this give me structure when I feel directionless? | ⚓ **The Drift** |
 | Does this enrich my life outside of work? | 🕯️ **Quiet Contentment** |
@@ -77,8 +77,8 @@ tags: [tag1, tag2, tag3]
 ## Quality Standards
 
 - **Clear problem statement** — What specific pain does this solve?
-- **Structured approach** — MECE, hypothesis-driven, or framework-based
-- **Professional outputs** — Would you put this in front of a partner?
+- **Structured approach** — Framework-based, not ad hoc
+- **Professional outputs** — Would you put this in front of leadership?
 - **Tested with real use cases** — Not just theoretical
 - **Well-documented** — Another person should be able to use it in 5 minutes
 
@@ -87,7 +87,7 @@ tags: [tag1, tag2, tag3]
 We review all PRs within **48 hours**. Criteria:
 
 1. **Quadrant fit** — Does the skill genuinely belong where it's placed?
-2. **Quality** — Is the output consulting-grade?
+2. **Quality** — Is the output professional-grade?
 3. **Uniqueness** — Does it solve a problem not already covered?
 4. **Documentation** — Can someone else use it immediately?
 

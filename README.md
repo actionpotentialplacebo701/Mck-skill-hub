@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="media/logo.svg" alt="Mck-skills" width="600">
+<img src="media/logo.svg" alt="Mck Skill Hub" width="600">
 
 <br>
 <br>
 
 <p>
   <sup>
-    <a href="PHILOSOPHY.md">Our Philosophy</a>&nbsp;&nbsp;&nbsp;
-    <a href="CONTRIBUTING.md">Contributing Guide</a>&nbsp;&nbsp;&nbsp;
+    <a href="PHILOSOPHY.md">Philosophy</a>&nbsp;&nbsp;&nbsp;
+    <a href="CONTRIBUTING.md">Contributing</a>&nbsp;&nbsp;&nbsp;
     <a href="template/skill-template/">Skill Template</a>
   </sup>
 </p>
@@ -16,12 +16,12 @@
 <br>
 
 <p>
-  <b>A curated collection of AI agent skills organized by what kind of life you want to live.</b>
+  <b>McKinsey-grade AI skills for knowledge workers who make decks at 2am.</b>
 </p>
 
 <p>
-  <sub>Most skill galleries organize by technology. We organize by meaning.<br>
-  Built for consultants, strategists, and builders who refuse to choose between achievement and meaning.</sub>
+  <sub>You don't need to be a consultant to think like one.<br>
+  If your job involves slides, strategy, or structured thinking — these skills are for you.</sub>
 </p>
 
 <br>
@@ -34,13 +34,13 @@
 
 ## Why This Exists
 
-Every skill gallery out there optimizes for **doing more, faster**. We've all been there — the hamster wheel of productivity, cranking out decks at 2am, mistaking motion for progress.
+Every knowledge worker knows the grind: another deck, another "align the fonts", another "can you make this more McKinsey?" at midnight. You're smart, you're capable — but 80% of your time goes to formatting, not thinking.
 
-**Mck-skills** is organized around a different question:
+**Mck Skill Hub** collects battle-tested AI agent skills that automate the mechanical parts of knowledge work — so you can focus on the 20% that actually requires your brain.
 
-> *"Does this skill help me achieve more, find more meaning, or — ideally — both?"*
+> *"Does this skill help me work smarter, or just work more?"*
 
-We call this the **Meaning-Achievement Matrix** — a 2×2 framework that maps every skill to the kind of life it helps you build.
+We organize skills around the **Meaning-Achievement Matrix** — a 2×2 that maps every skill to the kind of work-life it helps you build.
 
 ## The Framework
 
@@ -71,136 +71,115 @@ We call this the **Meaning-Achievement Matrix** — a 2×2 framework that maps e
 
 ## Contents
 
-- [🐹 Hollow Victory](#-hollow-victory)
-- [🚀 Purposeful Impact](#-purposeful-impact)
-- [⚓ The Drift](#-the-drift)
-- [🕯️ Quiet Contentment](#️-quiet-contentment)
+- [🐹 Hollow Victory](#-hollow-victory) — Automate the grind
+- [🚀 Purposeful Impact](#-purposeful-impact) — Coming soon
+- [⚓ The Drift](#-the-drift) — Coming soon
+- [🕯️ Quiet Contentment](#️-quiet-contentment) — Coming soon
 
 ## 🐹 Hollow Victory
 
 *High Achievement × Low Meaning — "Run faster, feel less."*
 
-You're crushing it at work. The decks are perfect, the models are tight, the clients are impressed. But Sunday nights fill you with dread. These skills **automate the mechanical**, freeing you from the hamster wheel so you can invest time in what actually matters.
+You're crushing deliverables. The decks are pixel-perfect, the storylines are tight, the stakeholders are impressed. But deep down you know a robot could do 80% of this. These skills **automate the mechanical**, so you can invest time in work that actually needs a human brain.
 
-- [McKinsey PPT Design](skills/hollow-victory/mck-ppt-design/) - Create consultant-grade PowerPoint presentations from scratch with a comprehensive design system. `✅ Production`
-- [McKinsey Chart Design](skills/hollow-victory/mck-chart-design/) - Generate FT/Economist editorial chart Midjourney prompts with cold-palette line charts and annotation-driven narratives. `✅ Production`
-- [Professional Speech](skills/hollow-victory/professional-speech/) - Structure compelling presentations and talking points using Pyramid Principle, SCQA, and Minto frameworks. `✅ Production`
-- [WorkBuddy PPT Engine](skills/hollow-victory/workbuddy-ppt-engine/) - Python-pptx automation engine with McKinsey design system, 16+ layout patterns, and corruption defense. `✅ Production`
-- [Data Model Builder](skills/hollow-victory/data-model-builder/) - Financial model scaffolding and sensitivity analysis. `🔜 Planned`
-- [Client Email Craft](skills/hollow-victory/client-email-craft/) - Professional client communication with consulting-grade templates. `🔜 Planned`
+- [McKinsey PPT Design](https://github.com/likaku/Mck-ppt-design-skill) - Consultant-grade PowerPoint presentations with a full design system: 16+ layouts, typography hierarchy, color tokens, and python-pptx automation. `✅ Production`
+- [Professional Speech](https://github.com/likaku/Mck-speech-design-skill) - Structure compelling presentations and talking points using Pyramid Principle, SCQA, and Minto frameworks. `✅ Production`
 
 ## 🚀 Purposeful Impact
 
 *High Achievement × High Meaning — "Build what matters."*
 
-The north star. These skills help you channel your consulting superpowers into work that **matters to you** — side projects, ventures, community building.
+The north star. Skills that help you channel your structured-thinking superpowers into work that **matters to you** — side projects, ventures, writing, community building.
 
-- [Venture Canvas](skills/purposeful-impact/venture-canvas/) - Lean Canvas and market sizing for side ventures. `🔜 Planned`
-- [Community Builder](skills/purposeful-impact/community-builder/) - Design and grow communities with flywheel thinking. `🔜 Planned`
-- [Strategy Storyteller](skills/purposeful-impact/strategy-storyteller/) - Turn complex strategy into compelling narratives. `🔜 Planned`
-- [Impact Measurement](skills/purposeful-impact/impact-measurement/) - OKR/KPI frameworks for meaningful projects. `🔜 Planned`
-- [Open Source Launch](skills/purposeful-impact/open-source-launch/) - Launch and grow an open-source project end to end. `🔜 Planned`
+> 🔜 Skills coming soon — [Contribute yours!](CONTRIBUTING.md)
 
 ## ⚓ The Drift
 
 *Low Achievement × Low Meaning — "Lost at sea."*
 
-We've all been here. Doom-scrolling between meetings. Procrastinating on that deck because nothing feels worth doing. These skills provide **structure and momentum** when you've lost your compass.
+Doom-scrolling between meetings. Procrastinating on that deck because nothing feels worth doing. Skills that provide **structure and momentum** when you've lost your compass.
 
-- [Weekly Compass](skills/the-drift/weekly-compass/) - Weekly planning ritual with energy and priority mapping. `🔜 Planned`
-- [Decision Journal](skills/the-drift/decision-journal/) - Structured decision logging to build self-awareness. `🔜 Planned`
-- [Learning Path](skills/the-drift/learning-path/) - Curated skill-building roadmaps with accountability. `🔜 Planned`
-- [Focus Session](skills/the-drift/focus-session/) - Deep work session design with Pomodoro and context loading. `🔜 Planned`
+> 🔜 Skills coming soon — [Contribute yours!](CONTRIBUTING.md)
 
 ## 🕯️ Quiet Contentment
 
 *Low Achievement × High Meaning — "Simple riches."*
 
-Not everything needs to be a KPI. Sometimes the best ROI is a perfectly brewed coffee, a journal entry, or an afternoon with no agenda. These skills support **the life around the work**.
+Not everything needs to be a KPI. Skills that support **the life around the work** — reading, reflection, relationships, rest.
 
-- [Reading Digest](skills/quiet-contentment/reading-digest/) - Summarize and annotate books, articles, and podcasts. `🔜 Planned`
-- [Reflection Prompt](skills/quiet-contentment/reflection-prompt/) - Daily and weekly reflection using consulting frameworks. `🔜 Planned`
-- [Life Dashboard](skills/quiet-contentment/life-dashboard/) - Personal KPI tracker beyond work metrics. `🔜 Planned`
-- [Gift Curator](skills/quiet-contentment/gift-curator/) - Thoughtful gift ideas based on relationship context. `🔜 Planned`
+> 🔜 Skills coming soon — [Contribute yours!](CONTRIBUTING.md)
 
 ## Quality Tiers
 
 | Badge | Tier | Criteria |
 |-------|------|----------|
-| `✅ Production` | Battle-tested | Used in real consulting engagements, refined through iterations |
-| `🧪 Beta` | Functional | Core logic works, actively collecting feedback |
-| `🔜 Planned` | Roadmap | Designed but not yet implemented — PRs welcome! |
+| `✅ Production` | Battle-tested | Used in real projects, refined through iterations |
+| `🧪 Beta` | Functional | Core logic works, collecting feedback |
+| `🔜 Planned` | Roadmap | Designed but not yet built — PRs welcome! |
 
 ## Quick Start
 
 ### Install a skill
 
 ```bash
-# Copy SKILL.md into your Claude skills directory
-cp -r skills/hollow-victory/mck-ppt-design/ ~/.claude/skills/
+# Clone a specific skill repo
+git clone https://github.com/likaku/Mck-ppt-design-skill.git
 
-# Or clone the whole gallery
-git clone https://github.com/likaku/mck-skills.git
+# Copy SKILL.md into your AI agent's skills directory
+cp Mck-ppt-design-skill/SKILL.md ~/.claude/skills/
+
+# Or browse the full hub
+git clone https://github.com/likaku/mck-skill-hub.git
 ```
 
 ### Use a skill
 
-Each skill folder contains:
+Each skill repo contains a `SKILL.md` — the machine-readable skill definition with YAML frontmatter and trigger conditions. Copy it into your AI agent's skill directory and it activates automatically.
 
-```
-skills/[quadrant]/[skill-name]/
-├── SKILL.md    # Machine-readable skill definition (YAML frontmatter + instructions)
-├── README.md   # Human-readable documentation
-├── scripts/    # Optional: helper scripts
-└── examples/   # Optional: example inputs/outputs
-```
+## Who Is This For?
 
-Copy the `SKILL.md` into your AI agent's skill directory and it will be automatically activated based on the trigger conditions defined inside.
+This isn't just for consultants. It's for every **knowledge worker** who:
 
-## For Consultants, By Consultants
+- 📊 **Makes decks** — whether for clients, leadership, investors, or internal reviews
+- 📝 **Structures arguments** — proposals, strategy docs, business cases, memos
+- 🎤 **Presents ideas** — team meetings, all-hands, pitch sessions, board updates
+- ⏰ **Works late on formatting** — when the content was done hours ago
 
-This isn't a generic skill library. Every skill is designed with the **consulting mindset**:
-
-- **Structured thinking** — MECE, hypothesis-driven, issue trees
-- **Visual precision** — McKinsey/BCG/Bain design standards
-- **80/20 focus** — Automate the 80% that's mechanical, invest in the 20% that's creative
-- **Storytelling** — Every output tells a story, not just presents data
-- **Time-boxed** — Respects that your time is literally billed by the hour
+If you've ever thought *"I spent 3 hours on fonts and alignment instead of thinking"* — welcome home.
 
 ## Contributing
 
-We'd love your skills! See the [Contributing Guide](CONTRIBUTING.md) for the full walkthrough.
+We'd love your skills! See the [Contributing Guide](CONTRIBUTING.md).
 
 **Quick version:**
 
 1. Fork this repo
 2. Pick a quadrant — which part of the matrix does your skill serve?
-3. Use the [template](template/skill-template/) — `cp -r template/skill-template/ skills/[quadrant]/[your-skill]/`
-4. Write your `SKILL.md` following the [spec](template/skill-template/SKILL.md)
-5. Submit a PR — we review within 48 hours
+3. Use the [template](template/skill-template/) — start from the standard structure
+4. Submit a PR — we review within 48 hours
 
-**Have an idea but no code?** Open an [Issue](../../issues) with the skill-idea template.
+**Have an idea but no code?** Open an [Issue](../../issues).
 
 ## Roadmap
 
-- [x] Core Hollow Victory skills (PPT, Charts, Speech, Engine)
-- [ ] Gallery website with interactive matrix visualization
+- [x] Core Hollow Victory skills (PPT Design, Professional Speech)
+- [ ] More Hollow Victory skills (Charts, Data Models, Email)
 - [ ] Purposeful Impact skills launch
 - [ ] Community-contributed skills across all quadrants
 - [ ] Skill chains — combine skills into workflows
 
 ## Philosophy
 
-> *"The consulting industry produces incredibly capable people who are often deeply unfulfilled. We built Mck-skills to help bridge that gap — not by working less, but by working on what matters."*
+> *"The knowledge economy produces incredibly capable people who spend 80% of their time on work a machine could do. We built Mck Skill Hub to flip that ratio."*
 
 Read the full [Philosophy →](PHILOSOPHY.md)
 
 ## License
 
-[MIT](LICENSE) — Use freely, build boldly, live meaningfully.
+[MIT](LICENSE) — Use freely, build boldly, reclaim your evenings.
 
 <br>
 
 <div align="center">
-  <sub>Made with ❤️ by consultants who believe there's more to life than billable hours.</sub>
+  <sub>Made with ❤️ by knowledge workers who believe your brain deserves better than font alignment.</sub>
 </div>

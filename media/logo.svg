@@ -1,43 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
   <defs>
     <style>
-      .title { font-family: Georgia, 'Times New Roman', serif; font-size: 72px; font-weight: bold; fill: #051C2C; }
-      .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 20px; fill: #666666; }
-      .matrix-line { stroke: #CCCCCC; stroke-width: 1.5; }
-      .quadrant-icon { font-size: 24px; }
-      .quadrant-label { font-family: Arial, Helvetica, sans-serif; font-size: 11px; fill: #999999; }
+      .title { font-family: Georgia, 'Times New Roman', serif; font-size: 48px; font-weight: bold; fill: #051C2C; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 16px; fill: #666666; letter-spacing: 0.5px; }
+      .accent { fill: #C4A35A; }
+      .matrix-line { stroke: #CCCCCC; stroke-width: 1; }
+      .matrix-dot { fill: #051C2C; }
+      .matrix-dot-gold { fill: #C4A35A; }
     </style>
   </defs>
   
-  <!-- Matrix diagram (left side) -->
-  <g transform="translate(60, 50)">
-    <!-- Axes -->
-    <line x1="0" y1="100" x2="200" y2="100" class="matrix-line"/>
-    <line x1="100" y1="0" x2="100" y2="200" class="matrix-line"/>
-    
-    <!-- Quadrant icons -->
-    <text x="50" y="55" text-anchor="middle" class="quadrant-icon">🐹</text>
-    <text x="50" y="75" text-anchor="middle" class="quadrant-label">Hollow Victory</text>
-    
-    <text x="150" y="55" text-anchor="middle" class="quadrant-icon">🚀</text>
-    <text x="150" y="75" text-anchor="middle" class="quadrant-label">Purposeful Impact</text>
-    
-    <text x="50" y="145" text-anchor="middle" class="quadrant-icon">⚓</text>
-    <text x="50" y="165" text-anchor="middle" class="quadrant-label">The Drift</text>
-    
-    <text x="150" y="145" text-anchor="middle" class="quadrant-icon">🕯️</text>
-    <text x="150" y="165" text-anchor="middle" class="quadrant-label">Quiet Contentment</text>
-    
-    <!-- Axis labels -->
-    <text x="100" y="-8" text-anchor="middle" class="quadrant-label">Achievement ↑</text>
-    <text x="215" y="104" text-anchor="start" class="quadrant-label">Meaning →</text>
+  <!-- Mini Matrix Icon -->
+  <g transform="translate(30, 40)">
+    <!-- Matrix frame -->
+    <rect x="0" y="0" width="120" height="120" fill="none" stroke="#CCCCCC" stroke-width="1.5" rx="4"/>
+    <!-- Cross lines -->
+    <line x1="60" y1="0" x2="60" y2="120" class="matrix-line"/>
+    <line x1="0" y1="60" x2="120" y2="60" class="matrix-line"/>
+    <!-- Quadrant dots -->
+    <circle cx="30" cy="30" r="8" class="matrix-dot-gold" opacity="0.9"/>  <!-- Hollow Victory - active -->
+    <circle cx="90" cy="30" r="5" class="matrix-dot" opacity="0.2"/>
+    <circle cx="30" cy="90" r="5" class="matrix-dot" opacity="0.2"/>
+    <circle cx="90" cy="90" r="5" class="matrix-dot" opacity="0.2"/>
+    <!-- Labels -->
+    <text x="60" y="-8" text-anchor="middle" font-family="Arial" font-size="8" fill="#999999" letter-spacing="1.5">ACHIEVEMENT</text>
+    <text x="135" y="64" font-family="Arial" font-size="8" fill="#999999" letter-spacing="1.5">MEANING</text>
   </g>
   
-  <!-- Title (right side) -->
-  <text x="380" y="130" class="title">Mck-skills</text>
-  <text x="380" y="165" class="subtitle">Skills for a better Way of Living &amp; Working</text>
+  <!-- Title -->
+  <text x="180" y="95" class="title">Mck</text>
+  <text x="270" y="95" class="title" style="font-style: italic;">Skill Hub</text>
   
-  <!-- Tagline -->
-  <text x="380" y="200" font-family="Arial" font-size="14" fill="#999999">A curated collection of AI agent skills organized by</text>
-  <text x="380" y="220" font-family="Arial" font-size="14" fill="#999999">what kind of life you want to live.</text>
+  <!-- Underline accent -->
+  <rect x="180" y="108" width="280" height="3" rx="1.5" class="accent"/>
+  
+  <!-- Subtitle -->
+  <text x="180" y="140" class="subtitle">McKinsey-grade AI skills for knowledge workers</text>
 </svg>
