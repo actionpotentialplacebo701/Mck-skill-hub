@@ -140,7 +140,7 @@ Not everything needs to be a KPI. Sometimes the best ROI is a perfectly brewed c
 cp -r skills/hollow-victory/mck-ppt-design/ ~/.claude/skills/
 
 # Or clone the whole gallery
-git clone https://github.com/kaku-git/mck-skills.git
+git clone https://github.com/likaku/mck-skills.git
 ```
 
 ### Use a skill
