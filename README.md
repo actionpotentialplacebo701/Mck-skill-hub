@@ -11,10 +11,10 @@
 <br>
 <br>
 
-**Professional AI skills for knowledge workers who make decks at 2am.**
+**The window is closing. Build your skill sets — or watch AI build them without you.**
 
-You don't need to be a consultant to think like one.<br>
-If your job involves slides, strategy, or structured thinking — these skills are for you.
+If your job is slides, strategy, or structured thinking,<br>
+you're not safe — you're next. Unless you become the one who trains the AI.
 
 <br>
 
@@ -46,21 +46,55 @@ If your job involves slides, strategy, or structured thinking — these skills a
 
 <br>
 
-## Why This Exists
+## The Clock Is Ticking
 
-Every knowledge worker knows the grind: another deck, another *"align the fonts"*, another *"can you make this look more professional?"* at midnight. You're smart, you're capable — but **80% of your time goes to formatting, not thinking.**
+Let's be honest.
 
-**Mck Skill Hub** collects battle-tested AI agent skills that automate the mechanical parts of knowledge work — so you can focus on the 20% that actually requires your brain.
+Every task you do today — formatting slides, structuring arguments, aligning fonts at 2am — an AI agent can already do it. Not in five years. **Now.** The McKinsey deck you spent a weekend on? An AI skill generates it in 90 seconds. The market analysis you pulled all-nighters for? A well-trained agent does it before your morning coffee.
 
-> *"Does this skill help me work smarter, or just work more?"*
+**Knowledge workers are the new blue-collar.** The assembly line just moved from the factory floor to your MacBook.
+
+Here's what most people will do: panic, resist, get replaced quietly.
+
+Here's what **you** can do: **become the trainer.**
+
+<br>
+
+## The Only Moat Left: Be the One Who Trains the AI
+
+There are two kinds of knowledge workers in 2026:
+
+1. **Those who use AI tools** — they'll survive a little longer, but they're still replaceable. The tool improves, and they become redundant.
+2. **Those who build AI skills** — they encode their expertise into reusable, compounding assets. Every skill they create makes them *more* valuable, not less.
+
+**Mck Skill Hub is for the second kind.**
+
+This isn't a gallery of pretty templates. It's an **open-source arsenal for knowledge workers who refuse to be replaced** — who choose to encode their hard-won expertise into AI skills that work for them, compound over time, and become their professional moat.
+
+> *"The best way to predict the future is to build it."*
 >
-> — The question we ask before adding any skill.
+> — Alan Kay, who probably never had to align text boxes at midnight.
+
+<br>
+
+## What Is a Skill?
+
+A **Skill** is a structured instruction set (a `SKILL.md` file) that teaches an AI agent how to perform a specific professional task at expert level. Think of it as **bottling your expertise** into something that scales infinitely.
+
+When you build a skill, you're not just automating a task — you're creating **intellectual property** that:
+
+- 🧠 **Captures your domain knowledge** in a form that compounds
+- 🤖 **Trains any AI agent** (Claude, GPT, Cursor, Codebuddy — it's universal)
+- 🔄 **Improves through iteration** — every production use makes it sharper
+- 💰 **Becomes your moat** — your unique expertise, encoded and scalable
+
+**The knowledge worker who builds skills is the knowledge worker who stays employed.**
 
 <br>
 
 ## The Framework
 
-We organize skills around the **Meaning-Achievement Matrix** — a 2×2 that maps every skill to the kind of work-life it helps you build.
+We organize skills around the **Meaning-Achievement Matrix** — because what you automate matters less than what you do with the time you get back.
 
 <br>
 
@@ -80,58 +114,64 @@ We organize skills around the **Meaning-Achievement Matrix** — a 2×2 that map
 
 > *High Achievement × Low Meaning — "Run faster, feel less."*
 
-You're crushing deliverables. The decks are pixel-perfect, the storylines are tight, the stakeholders are impressed. But deep down you know a robot could do 80% of this. These skills **automate the mechanical**, so you can invest time in work that actually needs a human brain.
+You're crushing deliverables. The decks are pixel-perfect. But you know an AI could do 80% of it. **So let it.** These skills exist to replace the mechanical grind — so you can invest your freed-up hours in building something that's actually yours.
 
-| Skill | Description | Status |
-|-------|-------------|--------|
-| [**Mck PPT Design**](https://github.com/likaku/Mck-ppt-design-skill) | Professional-grade PowerPoint presentations with a full design system: 16+ layouts, typography hierarchy, color tokens, and python-pptx automation. | `✅ Production` |
-| [**Mck Speech Design**](https://github.com/likaku/Mck-speech-design-skill) | AI-powered McKinsey-style speech writing — auto-generate speaker notes & inject into PPTX. | `✅ Production` |
-| [**Mck HTML Design**](https://github.com/likaku/mck-html-design-skill) | McKinsey-style HTML presentations with Python — 68 layouts, zero dependencies. My gut feeling is that PPT will eventually be obsoleted. | `✅ Production` |
+| Skill | What It Replaces | Status |
+|-------|-----------------|--------|
+| [**Mck PPT Design**](https://github.com/likaku/Mck-ppt-design-skill) | The 3-hour deck formatting session. 70 layouts, full design system, BLOCK_ARC charts, auto QA pipeline. One skill replaces an entire PowerPoint workflow. | `✅ Production` |
+| [**Mck Speech Design**](https://github.com/likaku/Mck-speech-design-skill) | The "write me speaker notes" back-and-forth. AI generates McKinsey-style speech scripts and injects them directly into PPTX. | `✅ Production` |
+| [**Mck HTML Design**](https://github.com/likaku/mck-html-design-skill) | The next generation — 68 layouts as HTML, zero dependencies. Because PPT itself is the next thing to be replaced. | `✅ Production` |
 
 ### 🚀 Purposeful Impact
 
 > *High Achievement × High Meaning — "Build what matters."*
 
-The north star. Skills that help you channel your structured-thinking superpowers into work that **matters to you** — side projects, ventures, writing, community building.
+The north star. Skills that help you channel your expertise into work that **matters to you** — ventures, writing, community, products. The time you reclaim from Hollow Victory skills? This is where you invest it.
 
-> 🔜 Skills coming soon — [Contribute yours!](CONTRIBUTING.md)
+> 🔜 Coming soon — [Build the first one.](CONTRIBUTING.md)
 
 ### ⚓ The Drift
 
 > *Low Achievement × Low Meaning — "Lost at sea."*
 
-Doom-scrolling between meetings. Procrastinating on that deck because nothing feels worth doing. Skills that provide **structure and momentum** when you've lost your compass.
+Structure and momentum for when you've lost your compass. If AI makes your current role feel pointless, these skills help you find the next thing.
 
-> 🔜 Skills coming soon — [Contribute yours!](CONTRIBUTING.md)
+> 🔜 Coming soon — [Build the first one.](CONTRIBUTING.md)
 
 ### 🕯️ Quiet Contentment
 
 > *Low Achievement × High Meaning — "Simple riches."*
 
-Not everything needs to be a KPI. Skills that support **the life around the work** — reading, reflection, relationships, rest.
+Not everything needs to be a KPI. Skills for the life around the work — reading, reflection, rest. Because the point of automating work is to **live more**, not to produce more.
 
-> 🔜 Skills coming soon — [Contribute yours!](CONTRIBUTING.md)
+> 🔜 Coming soon — [Build the first one.](CONTRIBUTING.md)
 
 <br>
 
 ## ⚡ Quick Start
 
-### Install a skill
+### Use a skill (5 minutes)
 
 ```bash
-# Clone a specific skill repo
+# Install via ClawHub (recommended)
+npx clawhub@latest install mck-ppt-design
+
+# Or manual install
 git clone https://github.com/likaku/Mck-ppt-design-skill.git
-
-# Copy SKILL.md into your AI agent's skills directory
-cp Mck-ppt-design-skill/SKILL.md ~/.claude/skills/
-
-# Or browse the full hub
-git clone https://github.com/likaku/mck-skill-hub.git
+cp Mck-ppt-design-skill/SKILL.md ~/.claude/skills/mck-ppt-design/
 ```
 
-### Use a skill
+### Build your own skill (this is the real move)
 
-Each skill repo contains a `SKILL.md` — the machine-readable skill definition with YAML frontmatter and trigger conditions. Copy it into your AI agent's skill directory and it activates automatically.
+```bash
+# Start from the template
+cp -r template/skill-template/ my-new-skill/
+
+# Edit SKILL.md — encode YOUR expertise
+# Submit a PR — share it with the community
+```
+
+Every skill you build is expertise that compounds. Every skill you don't build is expertise that expires.
 
 <br>
 
@@ -147,30 +187,33 @@ Each skill repo contains a `SKILL.md` — the machine-readable skill definition 
 
 ## 🎯 Who Is This For?
 
-This isn't just for consultants. It's for every **knowledge worker** who:
+**Not just consultants.** Every knowledge worker whose job can be described in a process:
 
-- 📊 **Makes decks** — whether for clients, leadership, investors, or internal reviews
-- 📝 **Structures arguments** — proposals, strategy docs, business cases, memos
-- 🎤 **Presents ideas** — team meetings, all-hands, pitch sessions, board updates
-- ⏰ **Works late on formatting** — when the content was done hours ago
+- 📊 **Deck builders** — slides for clients, leadership, investors, reviews
+- 📝 **Strategy writers** — proposals, business cases, memos, frameworks
+- 🔍 **Analysts** — market research, competitive intelligence, cost modeling
+- 🎤 **Presenters** — team meetings, all-hands, pitches, board updates
+- 🏗️ **Anyone who sees the writing on the wall** — and wants to be on the right side of it
 
-If you've ever thought *"I spent 3 hours on fonts and alignment instead of thinking"* — welcome home.
+If your expertise lives only in your head, it has a shelf life. **If it lives in a skill, it compounds forever.**
 
 <br>
 
 ## 🗺️ Roadmap
 
-- [x] Core Hollow Victory skills (PPT Design, Professional Speech)
-- [ ] More Hollow Victory skills (Charts, Data Models, Email)
+- [x] Core Hollow Victory skills (PPT Design, Speech Design, HTML Design)
+- [ ] Skill marketplace — discover and share community skills
+- [ ] Skill chains — combine skills into end-to-end workflows
 - [ ] Purposeful Impact skills launch
-- [ ] Community-contributed skills across all quadrants
-- [ ] Skill chains — combine skills into workflows
+- [ ] AI Trainer certification — prove your skill-building expertise
 
 <br>
 
 ## 🤝 Contributing
 
-We'd love your skills! See the [Contributing Guide](CONTRIBUTING.md).
+**Building a skill is the single best career move you can make right now.**
+
+See the [Contributing Guide](CONTRIBUTING.md) for details.
 
 **Quick version:**
 
@@ -179,13 +222,13 @@ We'd love your skills! See the [Contributing Guide](CONTRIBUTING.md).
 3. **Use the [template](template/skill-template/)** — start from the standard structure
 4. **Submit a PR** — we review within 48 hours
 
-**Have an idea but no code?** Open an [Issue](../../issues).
+**Have an idea but no code?** Open an [Issue](../../issues). Even a well-structured idea is a head start.
 
 <br>
 
 ## 📖 Philosophy
 
-> *"The knowledge economy produces incredibly capable people who spend 80% of their time on work a machine could do. We built Mck Skill Hub to flip that ratio."*
+> *"The knowledge economy is about to eat itself. AI doesn't care about your degree, your title, or how many all-nighters you've pulled. It only respects one thing: who trained it better. Be that person."*
 
 Read the full [Philosophy →](PHILOSOPHY.md)
 
@@ -193,7 +236,7 @@ Read the full [Philosophy →](PHILOSOPHY.md)
 
 ## License
 
-[MIT](LICENSE) — Use freely, build boldly, reclaim your evenings.
+[MIT](LICENSE) — Use freely, build boldly. Your skills are your moat.
 
 <br>
 
@@ -201,7 +244,7 @@ Read the full [Philosophy →](PHILOSOPHY.md)
 
 <div align="center">
 <br>
-<sub>Made with ❤️ by knowledge workers who believe your brain deserves better than font alignment.</sub>
+<sub>Built by knowledge workers who chose to train the AI — instead of racing against it.</sub>
 <br>
 <br>
 </div>
