@@ -11,10 +11,10 @@
 <br>
 <br>
 
-**The window is closing. Build your skill sets — or watch AI build them without you.**
+**留给知识工作者的时间不多了。<br>与其被 AI 替代，不如做 AI 的训练师。**
 
-If your job is slides, strategy, or structured thinking,<br>
-you're not safe — you're next. Unless you become the one who trains the AI.
+你的工作是做 PPT、写方案、搭框架？<br>
+你不是安全的 — 你是下一个。除非，你成为训练 AI 的那个人。
 
 <br>
 
@@ -27,16 +27,16 @@ you're not safe — you're next. Unless you become the one who trains the AI.
 <br>
 
 <sub>
-<a href="PHILOSOPHY.md">📖 Philosophy</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-<a href="CONTRIBUTING.md">🤝 Contributing</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-<a href="COMMUNITY_VOTING.md">🗳️ Voting Rules</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-<a href="template/skill-template/">📐 Skill Template</a>
+<a href="PHILOSOPHY.md">📖 设计哲学</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="CONTRIBUTING.md">🤝 参与贡献</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="COMMUNITY_VOTING.md">🗳️ 投票规则</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="template/skill-template/">📐 技能模板</a>
 </sub>
 
 <br>
 <br>
 
-**English** &nbsp;|&nbsp; [中文](README_CN.md)
+[English](README.md) &nbsp;|&nbsp; **中文**
 
 </div>
 
@@ -46,55 +46,55 @@ you're not safe — you're next. Unless you become the one who trains the AI.
 
 <br>
 
-## The Clock Is Ticking
+## 时间不多了
 
-Let's be honest.
+说句实话。
 
-Every task you do today — formatting slides, structuring arguments, aligning fonts at 2am — an AI agent can already do it. Not in five years. **Now.** The McKinsey deck you spent a weekend on? An AI skill generates it in 90 seconds. The market analysis you pulled all-nighters for? A well-trained agent does it before your morning coffee.
+你今天做的每一件事 — 排版 PPT、写结构化方案、凌晨两点对齐字体 — AI Agent 现在就能做。不是五年后，**是现在。** 你花一个周末做的麦肯锡风格 PPT？一个 AI Skill 90 秒生成。你通宵赶的市场分析？一个训练好的 Agent 在你喝早咖啡之前就能交付。
 
-**Knowledge workers are the new blue-collar.** The assembly line just moved from the factory floor to your MacBook.
+**知识工作者正在成为新一代流水线工人。** 只不过流水线从工厂车间搬到了你的 MacBook 上。
 
-Here's what most people will do: panic, resist, get replaced quietly.
+大多数人会怎么做：恐慌、抵触、然后被悄悄替换。
 
-Here's what **you** can do: **become the trainer.**
+而**你**可以这样做：**成为训练师。**
 
 <br>
 
-## The Only Moat Left: Be the One Who Trains the AI
+## 唯一的护城河：做训练 AI 的人
 
-There are two kinds of knowledge workers in 2026:
+2026 年，知识工作者分成两种：
 
-1. **Those who use AI tools** — they'll survive a little longer, but they're still replaceable. The tool improves, and they become redundant.
-2. **Those who build AI skills** — they encode their expertise into reusable, compounding assets. Every skill they create makes them *more* valuable, not less.
+1. **用 AI 工具的人** — 他们能多撑一阵子，但依然可以被替代。工具在进步，他们在贬值。
+2. **造 AI Skill 的人** — 他们把自己的专业能力编码成可复用、可复利的资产。每造一个 Skill，他们就变得*更有价值*，而不是更没用。
 
-**Mck Skill Hub is for the second kind.**
+**Mck Skill Hub 是给第二种人的。**
 
-This isn't a gallery of pretty templates. It's an **open-source arsenal for knowledge workers who refuse to be replaced** — who choose to encode their hard-won expertise into AI skills that work for them, compound over time, and become their professional moat.
+这不是一个模板画廊。这是一个**开源武器库，专为拒绝被替代的知识工作者打造** — 他们选择把自己辛苦积累的专业能力编码成 AI Skill，让它为自己工作、随时间增值、成为自己的职业护城河。
 
-> *"The best way to predict the future is to build it."*
+> *"预测未来最好的方式就是创造它。"*
 >
-> — Alan Kay, who probably never had to align text boxes at midnight.
+> — Alan Kay，他大概从来没有在半夜对齐过文本框。
 
 <br>
 
-## What Is a Skill?
+## 什么是 Skill？
 
-A **Skill** is a structured instruction set (a `SKILL.md` file) that teaches an AI agent how to perform a specific professional task at expert level. Think of it as **bottling your expertise** into something that scales infinitely.
+**Skill** 是一套结构化的指令集（一个 `SKILL.md` 文件），它教会 AI Agent 如何以专家水平执行某项专业任务。可以理解为**把你的专业能力装瓶**，然后无限复制。
 
-When you build a skill, you're not just automating a task — you're creating **intellectual property** that:
+当你构建一个 Skill，你不只是在自动化一个任务 — 你在创造**知识产权**：
 
-- 🧠 **Captures your domain knowledge** in a form that compounds
-- 🤖 **Trains any AI agent** (Claude, GPT, Cursor, Codebuddy — it's universal)
-- 🔄 **Improves through iteration** — every production use makes it sharper
-- 💰 **Becomes your moat** — your unique expertise, encoded and scalable
+- 🧠 **固化你的领域知识** — 变成可以复利增长的形式
+- 🤖 **训练任何 AI Agent** — Claude、GPT、Cursor、Codebuddy，通用兼容
+- 🔄 **越用越好** — 每一次生产使用都让它更锋利
+- 💰 **成为你的护城河** — 你独特的专业能力，被编码、可扩展
 
-**The knowledge worker who builds skills is the knowledge worker who stays employed.**
+**会造 Skill 的知识工作者，是不会失业的知识工作者。**
 
 <br>
 
-## The Framework
+## 组织框架
 
-We organize skills around the **Meaning-Achievement Matrix** — because what you automate matters less than what you do with the time you get back.
+我们围绕 **意义-成就矩阵（Meaning-Achievement Matrix）** 来组织技能 — 因为你自动化了什么不重要，重要的是你用省下来的时间做了什么。
 
 <br>
 
@@ -108,135 +108,135 @@ We organize skills around the **Meaning-Achievement Matrix** — because what yo
 
 <br>
 
-## 📦 Skills
+## 📦 技能列表
 
-### 🐹 Hollow Victory
+### 🐹 空心胜利（Hollow Victory）
 
-> *High Achievement × Low Meaning — "Run faster, feel less."*
+> *高成就 × 低意义 — "跑得越快，感觉越空。"*
 
-You're crushing deliverables. The decks are pixel-perfect. But you know an AI could do 80% of it. **So let it.** These skills exist to replace the mechanical grind — so you can invest your freed-up hours in building something that's actually yours.
+你在拼命交付。PPT 像素级完美。但你知道 AI 能做其中 80%。**那就让它做。** 这些 Skill 存在的意义，就是替代机械劳动 — 让你把省下来的时间，投入到真正属于你自己的事情上。
 
-| Skill | What It Replaces | Status |
-|-------|-----------------|--------|
-| [**Mck PPT Design**](https://github.com/likaku/Mck-ppt-design-skill) | The 3-hour deck formatting session. 70 layouts, full design system, BLOCK_ARC charts, auto QA pipeline. One skill replaces an entire PowerPoint workflow. | `✅ Production` |
-| [**Mck Speech Design**](https://github.com/likaku/Mck-speech-design-skill) | The "write me speaker notes" back-and-forth. AI generates McKinsey-style speech scripts and injects them directly into PPTX. | `✅ Production` |
-| [**Mck HTML Design**](https://github.com/likaku/mck-html-design-skill) | The next generation — 68 layouts as HTML, zero dependencies. Because PPT itself is the next thing to be replaced. | `✅ Production` |
+| 技能 | 它替代了什么 | 状态 |
+|------|-------------|------|
+| [**Mck PPT Design**](https://github.com/likaku/Mck-ppt-design-skill) | 3 小时的排版工作。70 种布局、完整设计系统、BLOCK_ARC 图表、自动 QA。一个 Skill 替代整条 PPT 工作流。 | `✅ 生产就绪` |
+| [**Mck Speech Design**](https://github.com/likaku/Mck-speech-design-skill) | 反复来回的"帮我写演讲稿"。AI 生成麦肯锡风格演讲脚本，直接注入 PPTX。 | `✅ 生产就绪` |
+| [**Mck HTML Design**](https://github.com/likaku/mck-html-design-skill) | 下一代方案 — 68 种布局的 HTML 演示，零依赖。因为 PPT 本身，就是下一个要被替代的东西。 | `✅ 生产就绪` |
 
-### 🚀 Purposeful Impact
+### 🚀 有意义的影响（Purposeful Impact）
 
-> *High Achievement × High Meaning — "Build what matters."*
+> *高成就 × 高意义 — "做有意义的事。"*
 
-The north star. Skills that help you channel your expertise into work that **matters to you** — ventures, writing, community, products. The time you reclaim from Hollow Victory skills? This is where you invest it.
+北极星象限。帮助你把专业能力投入到**对你真正有意义的工作**中 — 创业、写作、社区、产品。你从「空心胜利」中省下来的时间？就投资在这里。
 
-> 🔜 Coming soon — [Build the first one.](CONTRIBUTING.md)
+> 🔜 即将推出 — [来造第一个。](CONTRIBUTING.md)
 
-### ⚓ The Drift
+### ⚓ 漂流（The Drift）
 
-> *Low Achievement × Low Meaning — "Lost at sea."*
+> *低成就 × 低意义 — "迷失在海上。"*
 
-Structure and momentum for when you've lost your compass. If AI makes your current role feel pointless, these skills help you find the next thing.
+当你失去方向时，提供结构和动力。如果 AI 让你的当前角色感觉毫无意义，这些 Skill 帮你找到下一件值得做的事。
 
-> 🔜 Coming soon — [Build the first one.](CONTRIBUTING.md)
+> 🔜 即将推出 — [来造第一个。](CONTRIBUTING.md)
 
-### 🕯️ Quiet Contentment
+### 🕯️ 安静的满足（Quiet Contentment）
 
-> *Low Achievement × High Meaning — "Simple riches."*
+> *低成就 × 高意义 — "简单的富足。"*
 
-Not everything needs to be a KPI. Skills for the life around the work — reading, reflection, rest. Because the point of automating work is to **live more**, not to produce more.
+不是所有事情都需要变成 KPI。服务于工作之外的生活的技能 — 阅读、反思、休息。因为自动化工作的意义是**活得更多**，而不是产出更多。
 
-> 🔜 Coming soon — [Build the first one.](CONTRIBUTING.md)
+> 🔜 即将推出 — [来造第一个。](CONTRIBUTING.md)
 
 <br>
 
-## ⚡ Quick Start
+## ⚡ 快速开始
 
-### Use a skill (5 minutes)
+### 用一个 Skill（5 分钟）
 
 ```bash
-# Install via ClawHub (recommended)
+# 通过 ClawHub 安装（推荐）
 npx clawhub@latest install mck-ppt-design
 
-# Or manual install
+# 或手动安装
 git clone https://github.com/likaku/Mck-ppt-design-skill.git
 cp Mck-ppt-design-skill/SKILL.md ~/.claude/skills/mck-ppt-design/
 ```
 
-### Build your own skill (this is the real move)
+### 造你自己的 Skill（这才是真正重要的事）
 
 ```bash
-# Start from the template
+# 从模板开始
 cp -r template/skill-template/ my-new-skill/
 
-# Edit SKILL.md — encode YOUR expertise
-# Submit a PR — share it with the community
+# 编辑 SKILL.md — 把你的专业能力编码进去
+# 提交 PR — 分享给社区
 ```
 
-Every skill you build is expertise that compounds. Every skill you don't build is expertise that expires.
+你造的每一个 Skill，都是在积累复利。你没有造的每一个 Skill，都是在等待过期。
 
 <br>
 
-## 🏷️ Quality Tiers
+## 🏷️ 质量等级
 
-| Badge | Tier | Criteria |
-|:------|:-----|:---------|
-| `✅ Production` | Battle-tested | Used in real projects, refined through iterations |
-| `🧪 Beta` | Functional | Core logic works, collecting feedback |
-| `🔜 Planned` | Roadmap | Designed but not yet built — PRs welcome! |
-
-<br>
-
-## 🎯 Who Is This For?
-
-**Not just consultants.** Every knowledge worker whose job can be described in a process:
-
-- 📊 **Deck builders** — slides for clients, leadership, investors, reviews
-- 📝 **Strategy writers** — proposals, business cases, memos, frameworks
-- 🔍 **Analysts** — market research, competitive intelligence, cost modeling
-- 🎤 **Presenters** — team meetings, all-hands, pitches, board updates
-- 🏗️ **Anyone who sees the writing on the wall** — and wants to be on the right side of it
-
-If your expertise lives only in your head, it has a shelf life. **If it lives in a skill, it compounds forever.**
+| 标识 | 等级 | 标准 |
+|:-----|:-----|:-----|
+| `✅ 生产就绪` | 实战检验 | 在真实项目中使用并经过多次迭代 |
+| `🧪 Beta` | 基本可用 | 核心逻辑可运行，正在收集反馈 |
+| `🔜 计划中` | 路线图 | 已设计但未构建 — 欢迎 PR！ |
 
 <br>
 
-## 🗺️ Roadmap
+## 🎯 这是给谁用的？
 
-- [x] Core Hollow Victory skills (PPT Design, Speech Design, HTML Design)
-- [ ] Skill marketplace — discover and share community skills
-- [ ] Skill chains — combine skills into end-to-end workflows
-- [ ] Purposeful Impact skills launch
-- [ ] AI Trainer certification — prove your skill-building expertise
+**不只是咨询顾问。** 而是每一个工作内容可以被描述为流程的知识工作者：
 
-<br>
+- 📊 **做 PPT 的人** — 给客户、领导、投资人、评审做演示
+- 📝 **写方案的人** — 提案、商业计划、备忘录、策略框架
+- 🔍 **做分析的人** — 市场调研、竞品分析、成本建模
+- 🎤 **做演讲的人** — 团队会议、全员大会、路演、董事会汇报
+- 🏗️ **看到大势已至的人** — 并且想站在正确的一边
 
-## 🤝 Contributing
-
-**Building a skill is the single best career move you can make right now.**
-
-See the [Contributing Guide](CONTRIBUTING.md) for details.
-
-**Quick version:**
-
-1. **Fork** this repo
-2. **Pick a quadrant** — which part of the matrix does your skill serve?
-3. **Use the [template](template/skill-template/)** — start from the standard structure
-4. **Submit a PR** — we review within 48 hours
-
-**Have an idea but no code?** Open an [Issue](../../issues). Even a well-structured idea is a head start.
+如果你的专业能力只存在于你的脑子里，它就有保质期。**如果它存在于一个 Skill 里，它就能永远增值。**
 
 <br>
 
-## 📖 Philosophy
+## 🗺️ 路线图
 
-> *"The knowledge economy is about to eat itself. AI doesn't care about your degree, your title, or how many all-nighters you've pulled. It only respects one thing: who trained it better. Be that person."*
-
-Read the full [Philosophy →](PHILOSOPHY.md)
+- [x] 核心「空心胜利」技能（PPT 设计、演讲设计、HTML 设计）
+- [ ] Skill 市场 — 发现和分享社区技能
+- [ ] Skill 链 — 将多个技能组合成端到端工作流
+- [ ] 「有意义的影响」技能上线
+- [ ] AI 训练师认证 — 证明你的 Skill 构建能力
 
 <br>
 
-## License
+## 🤝 参与贡献
 
-[MIT](LICENSE) — Use freely, build boldly. Your skills are your moat.
+**造一个 Skill，是你现在能做的最好的职业投资。**
+
+查看[贡献指南](CONTRIBUTING.md)了解详情。
+
+**简要流程：**
+
+1. **Fork** 这个仓库
+2. **选择象限** — 你的技能服务于矩阵的哪个部分？
+3. **使用[模板](template/skill-template/)** — 从标准结构开始
+4. **提交 PR** — 我们在 48 小时内审核
+
+**有想法但还没写代码？** 开一个 [Issue](../../issues)。一个结构清晰的想法，本身就是一个好的开始。
+
+<br>
+
+## 📖 设计哲学
+
+> *"知识经济即将吞噬自己。AI 不在乎你的学历、你的头衔、你熬过多少个通宵。它只尊重一件事：谁把它训练得更好。做那个人。"*
+
+阅读完整的 [设计哲学 →](PHILOSOPHY.md)
+
+<br>
+
+## 许可证
+
+[MIT](LICENSE) — 自由使用，大胆构建。你的 Skill 就是你的护城河。
 
 <br>
 
@@ -244,7 +244,7 @@ Read the full [Philosophy →](PHILOSOPHY.md)
 
 <div align="center">
 <br>
-<sub>Built by knowledge workers who chose to train the AI — instead of racing against it.</sub>
+<sub>由选择训练 AI 而不是与 AI 赛跑的知识工作者们构建。</sub>
 <br>
 <br>
 </div>
